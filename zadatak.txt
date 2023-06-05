@@ -1,0 +1,17 @@
+Iz zadatka od jucer, prebaciti update grafickog sucelja u odvojeni thread, dakle jedan
+thread nek sluzi iskljucivo za dohvat i spremanje podataka u DTO, a drugi thread da sluzi
+za crtanje po grafickom sucelju (dakle, refaktor postojeceg koda).
+
+Nadovezano na zadatak, koristiti object distance parametar za simulaciju
+otvorenog/zatvorenog/kip prozora.
+ako je object distance > 15 znaci da je prozor otvoren,
+ako je object distance izmedu 5-15 prozor je otovoren na kip,
+ako je < 5 znaci da je prozor zatvoren.
+Statuse prozora prikazivati na grafickom sucelju
+(slike skinuti s interneta prema zelji)
+
+pratiti temperaturu u prostoriji ako je temperatura veca od 22 stupnja i
+prozor zatvoren signalizirati poruku korisniku da otvori prozor,
+
+ako je prozor otvoren i temperatura i dalje raste > 25 stupnjeva,
+javiti korisniku da zatvori prozor i upali klimu
